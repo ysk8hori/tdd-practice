@@ -32,11 +32,14 @@
     },
     "globals": {
       "ts-jest": {
-        "tsConfig": "tsconfig.json"
+        "tsConfig": "tsconfig.json",
+        "jsConfig": "jsconfig.json"
       }
     },
     "testMatch": [
-      "**/tests/**/*.spec.ts"
+      "**/tests/**/*.spec.ts",
+      "**/tests/**/*.spec.js"
     ]
-  }
+  },
+  "type": "module"
 }
