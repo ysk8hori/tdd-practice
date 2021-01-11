@@ -1,6 +1,6 @@
 # TDD PRACTICE
 
-TDD の練習問題です。
+TDD の練習環境です。
 
 ## 環境
 
